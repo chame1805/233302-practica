@@ -1,0 +1,66 @@
+/* Estilo para el título principal */
+h1 {
+    color: #333; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo para el título del formulario */
+  h2 {
+    color: #007bff; /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilo para el contenedor de la tabla */
+  #table_users {
+    max-width: 100%; /* Ancho máximo de la tabla */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #f9f9f9; /* Fondo gris claro */
+  }
+  
+  /* Estilo para la tabla */
+  table {
+    width: 100%; /* Ancho completo del contenedor */
+    border-collapse: collapse; /* Colapsa bordes */
+  }
+  
+  /* Estilo para las celdas de la tabla */
+  th, td {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinea el texto a la izquierda */
+    border: 1px solid #ddd; /* Borde gris claro */
+  }
+  
+  /* Estilo para los encabezados de la tabla */
+  #table_headers {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+  }
+  
+  /* Estilo para los botones */
+  button {
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Texto blanco */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Color de fondo azul más oscuro al pasar el cursor */
+  }
+  
+  /* Estilo para el formulario de usuario */
+  app-user-form {
+    display: block; /* Asegura que el componente se muestre como bloque */
+    margin: 20px auto; /* Centra el componente horizontalmente */
+    max-width: 600px; /* Ancho máximo del formulario */
+  }
+  
